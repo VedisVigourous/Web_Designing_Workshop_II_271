@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #24c280;
+}
+
+body {
+  background: black;
+  display: flex;            
+  justify-content: center;   
+  align-items: center;        
+  height: 100vh;             
+  margin: 0;
+}
+
+.AppDefault {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--primary-color);
+  padding: 50px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  box-shadow: 0 0 12px 3px var(--primary-color);
+}
+
+.AppDefault h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
