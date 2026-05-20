@@ -1,12 +1,10 @@
-import { isValidElement } from "react";
-
-function StudentCard(val){
+function StudentCard({ name, course, marks }) {
     return (
-        <div>
-            <p>Name: {val.name}</p>
-            <p>Course: {val.course}</p>
-            <p>Marks: {val.marks}</p>
-        </div>
+        <article className="studentCard">
+            <h2>{name}</h2>
+            <p><strong>Course:</strong> {course}</p>
+            <p><strong>Marks:</strong> {marks}</p>
+        </article>
     );
 }
 
