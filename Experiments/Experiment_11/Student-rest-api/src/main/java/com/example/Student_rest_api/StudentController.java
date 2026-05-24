@@ -12,7 +12,8 @@ public class StudentController {
 	
 	@GetMapping
 	 public String welcomeMessage() {
-	 return "Welcome to Student Management REST API - built by Vadanta Kumar Chauhaan";
+	 return "Welcome to Student Management REST API :: Uttam Upadhyay :: CSE-22";
+	 
 	 }
 	
 	@GetMapping("/student")
